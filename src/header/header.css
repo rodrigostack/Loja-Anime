@@ -1,0 +1,25 @@
+.containerdefault{
+    background-color: black;
+    height: 250px;
+    padding: 0%;
+}
+
+.divcolunm {
+    display: block;
+    padding: 0%;
+    margin-left: 20px;
+    margin-top: -45px;
+}
+
+.divbetween{
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.divright{
+    width: 20%;
+    height: 100x;
+    margin-top: 35px;
+}
