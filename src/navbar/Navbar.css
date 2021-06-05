@@ -1,0 +1,21 @@
+.navbarback{
+    background-color: gainsboro;
+}
+
+.navim{
+    width: 10%;
+    height: 60px;
+}
+
+ul li a{
+    font-weight: bold;
+    color: lightgray;
+    text-shadow: 2px 2px 3px white;
+}
+
+ul li a:hover{
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px 3px lightgray;
+}
+
