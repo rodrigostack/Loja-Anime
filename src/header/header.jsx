@@ -13,7 +13,7 @@ export default function header(){
                 <div className="col-md-5 divbetween">
                     <h1 className="h1">Loja de Fã para Fã.</h1><br/>
                     <p className="text-start">Temos todos so artigos de animes e series Tokusatsus</p><br/>
-                    <p className="text-center">Seja bem vindo(a) a HUNTER ANIMES</p>
+                    <p className="text-center">Seja bem vindo(a) a ANIME HUNTER </p>
                 </div>
                 <div className="col-md-3 divright">
                     <img src={Persona} className="img-fluid"/>
