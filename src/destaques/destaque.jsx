@@ -13,7 +13,7 @@ export default function destaque(){
             <div className="row">
                 <div className="col">
                     <div className="card-header cardfooter">
-                        <h2 className="h2">Destaques da na ANIME HUNTER</h2>
+                        <h2 className="h2">Destaques da ANIME HUNTER</h2>
                     </div>
                 </div>
                 <div className="row">
