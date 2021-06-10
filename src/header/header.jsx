@@ -8,7 +8,7 @@ export default function header(){
         <div className="container-fluid containerdefault">
             <div className="row ">
                 <div className="col-md-4 col-sm-2 divcolunm">
-                    <img src={Logo} className="img-fluid "/>
+                    <img src={Logo} className="imgheader"/>
                 </div>
                 <div className="col-md-5 divbetween">
                     <h1 className="h1">Loja de Fã para Fã.</h1><br/>
@@ -16,7 +16,7 @@ export default function header(){
                     <p className="text-center">Seja bem vindo(a) a ANIME HUNTER </p>
                 </div>
                 <div className="col-md-3 divright">
-                    <img src={Persona} className="img-fluid"/>
+                    <img src={Persona} className="imgnaruto"/>
                 </div>
 
             </div>

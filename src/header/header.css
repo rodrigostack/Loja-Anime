@@ -23,3 +23,20 @@
     height: 100x;
     margin-top: 35px;
 }
+
+.imgheader{
+    margin-top: 25px;
+    width: 600px;
+    height: 250px;
+}
+
+@media only screen and (min-width: 320px){
+.imgheader{
+    width: 80%;
+}
+}
+
+.imgnaruto{
+    width: 200px;
+    height: 150px;
+}
