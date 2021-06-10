@@ -5,7 +5,7 @@ import shipuden from  '../imagens/shippuden.jpg'
 
 export default function carousel(){
     return(
-    <div className="container containerdefaul">
+    <div className="containerdefaul">
         <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active">

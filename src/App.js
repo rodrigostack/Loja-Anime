@@ -1,9 +1,10 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Header from './header/header'
 import Navbar from './navbar/Navbar'
 import Carousel from './carousel/carousel'
 import Destaque from './destaques/destaque'
+import Footer from './footer/footer'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Navbar/>
         <Carousel/>
         <Destaque/>
+        <Footer/>
     </div>
   );
 }

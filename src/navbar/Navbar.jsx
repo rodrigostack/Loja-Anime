@@ -28,9 +28,7 @@ export default function Navbar(){
                         <li className="nav-item">
                         <a className="nav-link active" href="#">Quem Somos?</a>
                         </li>
-                        <li className="nav-item">
-                        <a className="nav-link active" href="#">Contatos</a>
-                        </li>
+  
                         <li className="nav-item  dropdown">
                         <a className="nav-link  active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Produtos Relacionados
