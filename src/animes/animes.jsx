@@ -22,11 +22,11 @@ export default function animes(){
             <div className="row">
                 <div className="col-md-4">
                     <a href="#">
-                    <div className="card carddefault">
-                        <div className="card-header cardheader">
+                    <div className="card cardydefault">
+                        <div className="card-header cardyheader">
                             <h5>Cavaleiros dos Zodiaco</h5>
                         </div>
-                        <div className="card-body cardbody">
+                        <div className="card-body cardybody">
                             <img src={Cdz} className="imganime"/>
                         </div>
                         <div className="card-footer">
@@ -38,11 +38,11 @@ export default function animes(){
                 </div>
                 <div className="col-md-4">
                 <a href="#">
-                    <div className="card carddefault">
-                        <div className="card-header cardheader">
+                    <div className="card cardydefault">
+                        <div className="card-header cardyheader">
                             <h5>Bleach</h5>
                         </div>
-                        <div className="card-body cardbody">
+                        <div className="card-body cardybody">
                             <img src={Bleach} className="imganime"/>
                         </div>
                         <div className="card-footer">
@@ -54,11 +54,11 @@ export default function animes(){
                 </div>
                 <div className="col-md-4">
                 <a href="#">
-                    <div className="card carddefault">
-                        <div className="card-header cardheader">
+                    <div className="card cardydefault">
+                        <div className="card-header cardyheader">
                             <h5>DeathNote</h5>
                         </div>
-                        <div className="card-body cardbody">
+                        <div className="card-body cardybody">
                             <img src={Death} className="imganime"/>
                         </div>
                         <div className="card-footer">
@@ -73,11 +73,11 @@ export default function animes(){
             <div className="row">
                 <div className="col-md-4">
                     <a href="#">
-                    <div className="card carddefault">
-                        <div className="card-header cardheader">
+                    <div className="card cardydefault">
+                        <div className="card-header cardyheader">
                             <h5>DragonBall Z</h5>
                         </div>
-                        <div className="card-body cardbody">
+                        <div className="card-body  cardybody">
                             <img src={Dragon} className="imganime"/>
                         </div>
                         <div className="card-footer">
@@ -89,11 +89,11 @@ export default function animes(){
                 </div>
                 <div className="col-md-4">
                 <a href="#">
-                    <div className="card carddefault">
-                        <div className="card-header cardheader">
+                    <div className="card cardydefault">
+                        <div className="card-header cardyheader">
                             <h5>DragonBall GT</h5>
                         </div>
-                        <div className="card-body cardbody">
+                        <div className="card-body cardybody">
                             <img src={Dragongt} className="imganime"/>
                         </div>
                         <div className="card-footer">
@@ -105,11 +105,11 @@ export default function animes(){
                 </div>
                 <div className="col-md-4">
                 <a href="#">
-                    <div className="card carddefault">
-                        <div className="card-header cardheader">
+                    <div className="card cardydefault">
+                        <div className="card-header cardyheader">
                             <h5>DragonBall</h5>
                         </div>
-                        <div className="card-body cardbody">
+                        <div className="card-body cardybody">
                             <img src={Dragonball} className="imganime"/>
                         </div>
                         <div className="card-footer">
@@ -124,11 +124,11 @@ export default function animes(){
             <div className="row">
                 <div className="col-md-4">
                     <a href="#">
-                    <div className="card carddefault">
-                        <div className="card-header cardheader">
+                    <div className="card cardydefault">
+                        <div className="card-header cardyheader">
                             <h5>Naruto Shippuden</h5>
                         </div>
-                        <div className="card-body cardbody">
+                        <div className="card-body cardybody">
                             <img src={Shippuden} className="imganime"/>
                         </div>
                         <div className="card-footer">
@@ -140,11 +140,11 @@ export default function animes(){
                 </div>
                 <div className="col-md-4">
                 <a href="#">
-                    <div className="card carddefault">
-                        <div className="card-header cardheader">
+                    <div className="card cardydefault">
+                        <div className="card-header cardyheader">
                             <h5>One Piece</h5>
                         </div>
-                        <div className="card-body cardbody">
+                        <div className="card-body cardybody">
                             <img src={Onepiece} className="imganime"/>
                         </div>
                         <div className="card-footer">
@@ -156,11 +156,11 @@ export default function animes(){
                 </div>
                 <div className="col-md-4">
                 <a href="#">
-                    <div className="card carddefault">
-                        <div className="card-header cardheader">
+                    <div className="card cardydefault">
+                        <div className="card-header cardyheader">
                             <h5>DragonBall Super</h5>
                         </div>
-                        <div className="card-body cardbody">
+                        <div className="card-body cardybody">
                             <img src={Dragonsuper} className="imganime"/>
                         </div>
                         <div className="card-footer">
@@ -175,11 +175,11 @@ export default function animes(){
             <div className="row">
                 <div className="col-md-4">
                     <a href="#">
-                    <div className="card carddefault">
-                        <div className="card-header cardheader">
+                    <div className="card cardydefault">
+                        <div className="card-header cardyheader">
                             <h5>Naruto Classico</h5>
                         </div>
-                        <div className="card-body cardbody">
+                        <div className="card-body cardybody">
                             <img src={Naruto} className="imganime"/>
                         </div>
                         <div className="card-footer">
@@ -191,11 +191,11 @@ export default function animes(){
                 </div>
                 <div className="col-md-4">
                 <a href="#">
-                    <div className="card carddefault">
-                        <div className="card-header cardheader">
+                    <div className="card cardydefault">
+                        <div className="card-header cardyheader">
                             <h5>Yu Yu Hakusho</h5>
                         </div>
-                        <div className="card-body cardbody">
+                        <div className="card-body cardybody">
                             <img src={Yuyu} className="imganime"/>
                         </div>
                         <div className="card-footer">
@@ -207,11 +207,11 @@ export default function animes(){
                 </div>
                 <div className="col-md-4">
                 <a href="#">
-                    <div className="card carddefault">
-                        <div className="card-header cardheader">
+                    <div className="card cardydefault">
+                        <div className="card-header cardyheader">
                             <h5>Samurai X</h5>
                         </div>
-                        <div className="card-body cardbody">
+                        <div className="card-body cardybody">
                             <img src={Samurai} className="imganime"/>
                         </div>
                         <div className="card-footer">

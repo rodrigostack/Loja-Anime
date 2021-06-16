@@ -3,11 +3,11 @@
     height: 200px;
 }
 
-.cardbody{
+.cardybody{
     padding: 0%;
 }
 
-.carddefault{
+.cardydefault{
     margin: 20px 20px;
     border: 1px solid steelblue;
 }
@@ -20,7 +20,7 @@
 
 }
 
-.cardheader{
+.cardyheader{
     background-color: rgb(34, 33, 33);
     color: white;
 }

@@ -1,14 +1,15 @@
 import React from 'react'
+import './carousel.css'
 import dragon from '../imagens/dragonball.jpg'
 import jaspion from '../imagens/jaspion.jpg'
 import shipuden from  '../imagens/shippuden.jpg'
 
 export default function carousel(){
     return(
-    <div className="containerdefaul">
+    <div className="continercarousel">
         <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
-            <div className="carousel-inner">
-                <div className="carousel-item active">
+            <div className="carousel-inner ">
+                <div className="carousel-item active ">
                 <img src={dragon} height="250"  className="d-block w-100" alt="..."/>
                 </div>
                 <div className="carousel-item">

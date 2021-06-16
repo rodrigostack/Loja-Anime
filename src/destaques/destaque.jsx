@@ -12,7 +12,7 @@ export default function destaque(){
         <div className="container destaque">
             <div className="row">
                 <div className="col">
-                    <div className="card-header cardfooter">
+                    <div className="card-header divtopdefault">
                         <h2 className="h2">Destaques da ANIME HUNTER</h2>
                     </div>
                 </div>
@@ -22,7 +22,7 @@ export default function destaque(){
                             <div className="card-header cardheader">
                                 <h3>Naruto</h3>
                             </div>
-                            <div className="card-body ">
+                            <div className="card-body cardbody">
                                 <img src={Naruto} className="img-fluid imgdiv"/>
                             </div>
                             <div className="card-footer cardfooter">
@@ -36,7 +36,7 @@ export default function destaque(){
                             <div className="card-header cardheader">
                                 <h3>Dragonball Super</h3>
                             </div>
-                            <div className="card-body ">
+                            <div className="card-body cardbody">
                                 <img src={Dragonball} className="img-fluid imgdiv"/>
                             </div>
                             <div className="card-footer cardfooter">
@@ -50,7 +50,7 @@ export default function destaque(){
                             <div className="card-header cardheader">
                                 <h3>One Piece</h3>
                             </div>
-                            <div className="card-body ">
+                            <div className="card-body cardbody">
                                 <img src={Onepiece} className="img-fluid imgdiv"/>
                             </div>
                             <div className="card-footer cardfooter">
@@ -66,7 +66,7 @@ export default function destaque(){
                             <div className="card-header cardheader">
                                 <h3>Jaspion</h3>
                             </div>
-                            <div className="card-body ">
+                            <div className="card-body cardbody">
                                 <img src={Jaspion} className="img-fluid imgdiv"/>
                             </div>
                             <div className="card-footer cardfooter">
@@ -80,7 +80,7 @@ export default function destaque(){
                             <div className="card-header cardheader">
                                 <h3>Flashman</h3>
                             </div>
-                            <div className="card-body ">
+                            <div className="card-body cardbody">
                                 <img src={Flashman} className="img-fluid imgdiv"/>
                             </div>
                             <div className="card-footer cardfooter">
@@ -94,7 +94,7 @@ export default function destaque(){
                             <div className="card-header cardheader">
                                 <h3>Jiban</h3>
                             </div>
-                            <div className="card-body ">
+                            <div className="card-body cardbody">
                                 <img src={Jiban} className="img-fluid imgdiv"/>
                             </div>
                             <div className="card-footer cardfooter">
