@@ -12,6 +12,12 @@ import Dragonsuper from '../imagens/dragonballsuper.jpg'
 import Yuyu from '../imagens/Yu_Yu_Hakusho.jpg'
 import Naruto from '../imagens/naruto.jpg'
 import Samurai from '../imagens/Samurai_X.jpg'
+import Fairy from '../imagens/fairy tail.jpg'
+import Katekyo from '../imagens/katekyo.jpg'
+import Saylor from '../imagens/Sailor-moon.jpg'
+import Hunter from '../imagens/hunter.jpg'
+import Atack from '../imagens/atack.jpg'
+import Inuyasha from '../imagens/Inuyasha.jpg'
 
 export default function animes(){
     return(
@@ -216,6 +222,108 @@ export default function animes(){
                         </div>
                         <div className="card-footer">
                            <p>Coleçao completa de Samurai X </p> 
+                        </div>
+
+                    </div>
+                    </a>
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-md-4">
+                    <a href="#">
+                    <div className="card cardydefault">
+                        <div className="card-header cardyheader">
+                            <h5>Fairy Tail</h5>
+                        </div>
+                        <div className="card-body cardybody">
+                            <img src={Fairy} className="imganime"/>
+                        </div>
+                        <div className="card-footer">
+                           <p>Coleçao atualizada ate o ultimo episodio</p> 
+                        </div>
+
+                    </div>
+                    </a>
+                </div>
+                <div className="col-md-4">
+                <a href="#">
+                    <div className="card cardydefault">
+                        <div className="card-header cardyheader">
+                            <h5>Katekyo Hitman Reborn</h5>
+                        </div>
+                        <div className="card-body cardybody">
+                            <img src={Katekyo} className="imganime"/>
+                        </div>
+                        <div className="card-footer">
+                           <p>Coleçao completa de Katekyo Hitman</p> 
+                        </div>
+
+                    </div>
+                    </a>
+                </div>
+                <div className="col-md-4">
+                <a href="#">
+                    <div className="card cardydefault">
+                        <div className="card-header cardyheader">
+                            <h5>Sailor Moon</h5>
+                        </div>
+                        <div className="card-body cardybody">
+                            <img src={Saylor} className="imganime"/>
+                        </div>
+                        <div className="card-footer">
+                           <p>Coleçao completa de Saylor moon </p> 
+                        </div>
+
+                    </div>
+                    </a>
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-md-4">
+                    <a href="#">
+                    <div className="card cardydefault">
+                        <div className="card-header cardyheader">
+                            <h5>Attack on Titan</h5>
+                        </div>
+                        <div className="card-body cardybody">
+                            <img src={Atack} className="imganime"/>
+                        </div>
+                        <div className="card-footer">
+                           <p>Coleçao atualizada ate o ultimo episodio</p> 
+                        </div>
+
+                    </div>
+                    </a>
+                </div>
+                <div className="col-md-4">
+                <a href="#">
+                    <div className="card cardydefault">
+                        <div className="card-header cardyheader">
+                            <h5>Inuyasha</h5>
+                        </div>
+                        <div className="card-body cardybody">
+                            <img src={Inuyasha} className="imganime"/>
+                        </div>
+                        <div className="card-footer">
+                           <p>Coleçao completa de Inuyasha</p> 
+                        </div>
+
+                    </div>
+                    </a>
+                </div>
+                <div className="col-md-4">
+                <a href="#">
+                    <div className="card cardydefault">
+                        <div className="card-header cardyheader">
+                            <h5>Hunter x Hunter 2011</h5>
+                        </div>
+                        <div className="card-body cardybody">
+                            <img src={Hunter} className="imganime"/>
+                        </div>
+                        <div className="card-footer">
+                           <p>Coleçao completa de Hunter x Hunter 2011 </p> 
                         </div>
 
                     </div>
