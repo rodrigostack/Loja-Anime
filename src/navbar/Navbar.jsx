@@ -21,7 +21,7 @@ export default function Navbar(){
                         <Link className="nav-link active" to="/animes">Animes</Link>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link active" href="#">Tokusatsus</a>
+                        <Link className="nav-link active" to="/tokusatsus">Tokusatsus</Link>
                         </li>
                         <li className="nav-item">
                         <a className="nav-link active" href="#">Cadastre-se</a>
