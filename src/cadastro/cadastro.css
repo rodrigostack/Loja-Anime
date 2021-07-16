@@ -1,3 +1,24 @@
-label{
-    text-align: left;
+.cadastrodefault{
+   background-color: darkgray;
+   border-radius: 5px;
+   margin-top: 10px;
+}
+
+.forminput{
+    margin-top: 7px;
+    padding-top: 8px;
+}
+
+.buttonform{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#titlehead{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+    padding-top: 5px;
 }

@@ -1,24 +1,74 @@
 import React from 'react'
+import './cadastro.css'
 
 export default function cadastro(){
     return(
-      <div className="container">
-        <form>
+      <div className="container cadastrodefault">
+          <div className="row" id="titlehead">
+                <h1 className="h2">Preencha com seus dados:</h1>
+          </div>
+        <form className="forminput"> 
          <div className="row"> 
             <div className="col-md-6"> 
-            <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatingname" placeholder="Digite seu nome"/>
-                <label for="floatingname">Nome Completo:</label>
-            </div>
+                <div className="form-floating mb-3">
+                    <input type="text" className="form-control" id="floatingname" placeholder="Digite seu nome"/>
+                    <label for="floatingname">Nome Completo:</label>
+                </div>
             </div> 
             <div className="col-md-6">    
-                <div class="form-floating">
-                    <input type="email" class="form-control" id="floatingemail" placeholder="Digite seu E-mail"/>
+                <div className="form-floating mb-3">
+                    <input type="email" className="form-control" id="floatingemail" placeholder="Digite seu E-mail"/>
                     <label for="floatingemail">Email:</label>
                 </div>
             </div>
          </div>
-         </form>   
-      </div>
+         <div className="row"> 
+            <div className="col-md-6"> 
+                <div className="form-floating mb-3">
+                    <input type="text" className="form-control" id="floatingtel" placeholder="Digite seu Telefone"/>
+                    <label for="floatingtel">Telefone:</label>
+                </div>
+            </div> 
+            <div className="col-md-6">    
+                <div className="form-floating mb-3">
+                    <input type="text" className="form-control" id="floatingcpf" placeholder="Digite seu CPF"/>
+                    <label for="floatingcpf">CPF:</label>
+                </div>
+            </div>
+         </div>
+         <div className="row">
+            <div className="col-md-2">    
+                <div className="form-floating mb-3">
+                    <input type="text" className="form-control" id="floatingcep" placeholder="Digite seu CEP"/>
+                    <label for="floatingcep">CEP</label>
+                </div>
+            </div>
+            <div className="col-md-4">    
+                <div className="form-floating mb-3">
+                    <input type="text" className="form-control" id="floatingcidade" placeholder="Digite seu cidade"/>
+                    <label for="floatingcidade">Cidade:</label>
+                </div>
+            </div>
+            <div className="col-md-6">    
+                <div className="form-floating mb-3">
+                    <input type="text" className="form-control" id="floatingbairro" placeholder="Digite seu Bairro"/>
+                    <label for="floatingbairro">Bairro:</label>
+                </div>
+            </div>
+         </div>
+         <div className="row">
+            <div className="col-md-12"> 
+                <div className="form-floating mb-3">
+                    <input type="text" className="form-control" id="floatingend" placeholder="Digite seu Endereço"/>
+                    <label for="floatingend">Endereço:</label>
+               </div> 
+            </div>   
+         </div>
+         <div className="col-md-2 buttonform">
+            <button type="submit" className="btn btn-secondary">Cadastrar</button>
+         </div>
+         
+        </form>   
+    </div>
     )
 }
