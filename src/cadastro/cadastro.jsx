@@ -1,5 +1,6 @@
 import React from 'react'
 import './cadastro.css'
+import InputMask from 'react-input-mask'
 
 export default function cadastro(){
     return(
@@ -25,13 +26,13 @@ export default function cadastro(){
          <div className="row"> 
             <div className="col-md-6"> 
                 <div className="form-floating mb-3">
-                    <input type="text" className="form-control" id="floatingtel" placeholder="Digite seu Telefone"/>
+                    <InputMask mask="(99)99999-9999" type="text" className="form-control" id="floatingtel" placeholder="Digite seu Telefone"/>
                     <label for="floatingtel">Telefone:</label>
                 </div>
             </div> 
             <div className="col-md-6">    
                 <div className="form-floating mb-3">
-                    <input type="text" className="form-control" id="floatingcpf" placeholder="Digite seu CPF"/>
+                    <InputMask mask="999.999.999-99" type="text" className="form-control" id="floatingcpf" placeholder="Digite seu CPF"/>
                     <label for="floatingcpf">CPF:</label>
                 </div>
             </div>
@@ -39,7 +40,7 @@ export default function cadastro(){
          <div className="row">
             <div className="col-md-2">    
                 <div className="form-floating mb-3">
-                    <input type="text" className="form-control" id="floatingcep" placeholder="Digite seu CEP"/>
+                    <InputMask mask="99999-999" type="text" className="form-control" id="floatingcep" placeholder="Digite seu CEP"/>
                     <label for="floatingcep">CEP</label>
                 </div>
             </div>
