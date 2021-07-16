@@ -1,6 +1,7 @@
 import React from 'react'
 import './cadastro.css'
 import InputMask from 'react-input-mask'
+import Axios from 'axios'
 
 export default function cadastro(){
     return(
@@ -46,25 +47,32 @@ export default function cadastro(){
             </div>
             <div className="col-md-4">    
                 <div className="form-floating mb-3">
-                    <input type="text" className="form-control" id="floatingcidade" placeholder="Digite seu cidade"/>
-                    <label for="floatingcidade">Cidade:</label>
+                    <input type="text" className="form-control" id="floatingestado" placeholder="Digite seu estado"/>
+                    <label for="floatingestado">Estado:</label>
                 </div>
             </div>
             <div className="col-md-6">    
                 <div className="form-floating mb-3">
-                    <input type="text" className="form-control" id="floatingbairro" placeholder="Digite seu Bairro"/>
-                    <label for="floatingbairro">Bairro:</label>
+                    <input type="text" className="form-control" id="floatingcidade" placeholder="Digite seu cidade"/>
+                    <label for="floatingcidade">Cidade:</label>
                 </div>
             </div>
          </div>
          <div className="row">
-            <div className="col-md-12"> 
+            <div className="col-md-6"> 
+                <div className="form-floating mb-3">
+                    <input type="text" className="form-control" id="floatingbairro" placeholder="Digite seu bairro"/>
+                    <label for="floatingbairro">Bairro:</label>
+               </div> 
+            </div> 
+            <div className="col-md-6"> 
                 <div className="form-floating mb-3">
                     <input type="text" className="form-control" id="floatingend" placeholder="Digite seu Endereço"/>
                     <label for="floatingend">Endereço:</label>
                </div> 
-            </div>   
+            </div>     
          </div>
+         
          <div className="col-md-2 buttonform">
             <button type="submit" className="btn btn-secondary">Cadastrar</button>
          </div>
