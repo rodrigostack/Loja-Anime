@@ -27,7 +27,7 @@ export default function Navbar(){
                         <Link className="nav-link active" to="/cadastro">Cadastre-se</Link>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link active" href="#">Quem Somos?</a>
+                        <Link className="nav-link active" to="/quemsomos">Quem Somos?</Link>
                         </li>
   
                         <li className="nav-item  dropdown">
