@@ -1,0 +1,18 @@
+.condefault{
+    background-color: lightgray;
+    margin-top: 8px;
+}
+
+.divimg{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin-top: 8px;
+}
+
+.divtitle{
+    padding: 48px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: flex-end;
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import './animes.css'
+import { Link } from 'react-router-dom'
 import Cdz from '../imagens/cdz.jpg'
 import Bleach from '../imagens/bleack.jpg'
 import Death from '../imagens/deathnote.jpg'
@@ -27,7 +28,7 @@ export default function animes(){
             </div>
             <div className="row">
                 <div className="col-md-4">
-                    <a href="#">
+                    <Link to="/produtodetalhe">
                     <div className="card cardydefault">
                         <div className="card-header cardyheader">
                             <h5>Cavaleiros dos Zodiaco</h5>
@@ -40,7 +41,7 @@ export default function animes(){
                         </div>
 
                     </div>
-                    </a>
+                    </Link>
                 </div>
                 <div className="col-md-4">
                 <a href="#">

@@ -8,6 +8,7 @@ import Animes from './animes/animes'
 import Tokusatsus from './tokusatsus/tokusatsus'
 import Cadastro from './cadastro/cadastro'
 import Quemsomos from './quemsomos/Quemsomos'
+import Produtodetalhe from './produtodetalhe/produtodetalhe'
 
 export default function(){
     return(
@@ -17,6 +18,7 @@ export default function(){
         <Route exact path="/tokusatsus" component={Tokusatsus}/>
         <Route exact path="/cadastro" component={Cadastro}/>
         <Route exact path="/quemsomos" component={Quemsomos}/>
+        <Route exact path="/produtodetalhe" component={Produtodetalhe}/>
 
     </Switch>
     )
